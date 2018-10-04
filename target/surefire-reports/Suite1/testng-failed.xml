@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test name="API test(failed)">
+    <classes>
+      <class name="com.myapiproject.api.CreateJiraIssue">
+        <methods>
+          <include name="createIssue"/>
+          <include name="getAuthtication"/>
+        </methods>
+      </class> <!-- com.myapiproject.api.CreateJiraIssue -->
+      <class name="com.myapiproject.api.GetJiraAUTH">
+        <methods>
+          <include name="getAuthtication"/>
+        </methods>
+      </class> <!-- com.myapiproject.api.GetJiraAUTH -->
+    </classes>
+  </test> <!-- API test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 34.396 s <<< FAILURE! - in TestSuite
+createIssue(com.myapiproject.api.CreateJiraIssue)  Time elapsed: 4.255 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <403>.
+
+	at com.myapiproject.api.CreateJiraIssue.createIssue(CreateJiraIssue.java:26)
+
+getAuthtication(com.myapiproject.api.CreateJiraIssue)  Time elapsed: 0.1 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <403>.
+
+
+getAuthtication(com.myapiproject.api.GetJiraAUTH)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <403>.
+
+	at com.myapiproject.api.GetJiraAUTH.getAuthtication(GetJiraAUTH.java:28)
+
