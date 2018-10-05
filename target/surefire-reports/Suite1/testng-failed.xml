@@ -3,17 +3,22 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
   <test name="API test(failed)">
     <classes>
+      <class name="com.myapiproject.api.GetJiraAUTH">
+        <methods>
+          <include name="getAuthtication"/>
+        </methods>
+      </class> <!-- com.myapiproject.api.GetJiraAUTH -->
       <class name="com.myapiproject.api.CreateJiraIssue">
         <methods>
           <include name="createIssue"/>
           <include name="getAuthtication"/>
         </methods>
       </class> <!-- com.myapiproject.api.CreateJiraIssue -->
-      <class name="com.myapiproject.api.GetJiraAUTH">
+      <class name="webTest.CheckTitle">
         <methods>
-          <include name="getAuthtication"/>
+          <include name="killDriver"/>
         </methods>
-      </class> <!-- com.myapiproject.api.GetJiraAUTH -->
+      </class> <!-- webTest.CheckTitle -->
     </classes>
   </test> <!-- API test(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

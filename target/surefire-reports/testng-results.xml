@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="33415" started-at="2018-10-04T12:50:32Z" finished-at="2018-10-04T12:51:05Z">
+  <suite name="Suite1" duration-ms="40988" started-at="2018-10-05T06:09:11Z" finished-at="2018-10-05T06:09:52Z">
     <groups>
     </groups>
-    <test name="API test" duration-ms="4432" started-at="2018-10-04T12:50:32Z" finished-at="2018-10-04T12:50:36Z">
+    <test name="API test" duration-ms="2992" started-at="2018-10-05T06:09:11Z" finished-at="2018-10-05T06:09:14Z">
       <class name="com.myapiproject.api.CreateJiraIssue">
-        <test-method status="FAIL" signature="createIssue()[pri:0, instance:com.myapiproject.api.CreateJiraIssue@327471b5]" name="createIssue" duration-ms="4215" started-at="2018-10-04T18:20:32Z" finished-at="2018-10-04T18:20:36Z">
+        <test-method status="FAIL" signature="createIssue()[pri:0, instance:com.myapiproject.api.CreateJiraIssue@4909b8da]" name="createIssue" duration-ms="2830" started-at="2018-10-05T11:39:11Z" finished-at="2018-10-05T11:39:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -85,7 +85,7 @@ Expected status code <200> doesn't match actual status code <403>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createIssue -->
-        <test-method status="FAIL" signature="getAuthtication()[pri:0, instance:com.myapiproject.api.CreateJiraIssue@327471b5]" name="getAuthtication" duration-ms="101" started-at="2018-10-04T18:20:36Z" finished-at="2018-10-04T18:20:36Z">
+        <test-method status="FAIL" signature="getAuthtication()[pri:0, instance:com.myapiproject.api.CreateJiraIssue@4909b8da]" name="getAuthtication" duration-ms="66" started-at="2018-10-05T11:39:14Z" finished-at="2018-10-05T11:39:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -155,7 +155,7 @@ Expected status code <200> doesn't match actual status code <403>.
         </test-method> <!-- getAuthtication -->
       </class> <!-- com.myapiproject.api.CreateJiraIssue -->
       <class name="com.myapiproject.api.GetJiraAUTH">
-        <test-method status="FAIL" signature="getAuthtication()[pri:0, instance:com.myapiproject.api.GetJiraAUTH@47f6473]" name="getAuthtication" duration-ms="38" started-at="2018-10-04T18:20:36Z" finished-at="2018-10-04T18:20:36Z">
+        <test-method status="FAIL" signature="getAuthtication()[pri:0, instance:com.myapiproject.api.GetJiraAUTH@617c74e5]" name="getAuthtication" duration-ms="54" started-at="2018-10-05T11:39:14Z" finished-at="2018-10-05T11:39:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -225,12 +225,16 @@ Expected status code <200> doesn't match actual status code <403>.
         </test-method> <!-- getAuthtication -->
       </class> <!-- com.myapiproject.api.GetJiraAUTH -->
     </test> <!-- API test -->
-    <test name="web functional test" duration-ms="28794" started-at="2018-10-04T12:50:36Z" finished-at="2018-10-04T12:51:05Z">
+    <test name="web functional test" duration-ms="37791" started-at="2018-10-05T06:09:14Z" finished-at="2018-10-05T06:09:52Z">
       <class name="webTest.CheckTitle">
-        <test-method status="PASS" signature="checkPageTitles()[pri:0, instance:webTest.CheckTitle@153f5a29]" name="checkPageTitles" duration-ms="28794" started-at="2018-10-04T18:20:36Z" finished-at="2018-10-04T18:21:05Z">
+        <test-method status="PASS" signature="checkPageTitles()[pri:0, instance:webTest.CheckTitle@32e6e9c3]" name="checkPageTitles" duration-ms="37791" started-at="2018-10-05T11:39:14Z" finished-at="2018-10-05T11:39:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageTitles -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:webTest.CheckTitle@32e6e9c3]" name="killDriver" is-config="true" duration-ms="187" started-at="2018-10-05T11:39:52Z" finished-at="2018-10-05T11:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
       </class> <!-- webTest.CheckTitle -->
     </test> <!-- web functional test -->
   </suite> <!-- Suite1 -->

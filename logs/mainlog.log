@@ -1,0 +1,328 @@
+2018-10-05 01:24:48 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 01:24:48 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 01:24:48 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 01:24:48 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 01:24:48 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "cookie: JSESSIONID=null[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Length: 292[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 01:24:48 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2018-10-05 01:24:48 DEBUG headers:283 - >> cookie: JSESSIONID=null
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept: */*
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Length: 292
+2018-10-05 01:24:48 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 01:24:48 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 01:24:48 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "{[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "    "fields": {[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       "project":[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       {[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "          "key": "TEST"[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       },[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       "summary": "REST ye merry gentlemen.",[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       "description": "Creating of an issue using project keys and issue type names using the REST API",[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       "issuetype": {[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "          "name": "Bug"[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "       }[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "   }[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "}[\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Date: Thu, 04 Oct 2018 19:54:48 GMT[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Length: 398[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:267 - << Date: Thu, 04 Oct 2018 19:54:48 GMT
+2018-10-05 01:24:48 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 01:24:48 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Length: 398
+2018-10-05 01:24:48 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 01:24:48 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 01:24:48 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 01:24:48 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 01:24:48 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 01:24:48 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Length: 77[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 01:24:48 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept: */*
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Length: 77
+2018-10-05 01:24:48 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 01:24:48 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 01:24:48 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "{ [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9]"username": "parulika.singh@gmail.com", [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9]"password": "Parulika@123" [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9][\n]"
+2018-10-05 01:24:48 DEBUG wire:86 -  >> "}"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Date: Thu, 04 Oct 2018 19:54:48 GMT[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Length: 400[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:267 - << Date: Thu, 04 Oct 2018 19:54:48 GMT
+2018-10-05 01:24:48 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 01:24:48 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Length: 400
+2018-10-05 01:24:48 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 01:24:48 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 01:24:48 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 01:24:48 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 01:24:48 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 01:24:48 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Content-Length: 77[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 01:24:48 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept: */*
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 01:24:48 DEBUG headers:283 - >> Content-Length: 77
+2018-10-05 01:24:48 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 01:24:48 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 01:24:48 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 01:24:48 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "{ [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9]"username": "parulika.singh@gmail.com", [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9]"password": "Parulika@123" [\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  >> "[0x9][\n]"
+2018-10-05 01:24:48 DEBUG wire:86 -  >> "}"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Date: Thu, 04 Oct 2018 19:54:48 GMT[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Content-Length: 400[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 01:24:48 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 01:24:48 DEBUG headers:267 - << Date: Thu, 04 Oct 2018 19:54:48 GMT
+2018-10-05 01:24:48 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 01:24:48 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG headers:267 - << Content-Length: 400
+2018-10-05 01:24:48 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 01:24:48 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 01:24:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50778<->127.0.0.1:8080 closed
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50777<->127.0.0.1:8080 closed
+2018-10-05 01:24:48 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50776<->127.0.0.1:8080 closed
+2018-10-05 01:24:48 INFO  CheckTitle:39 - /Users/parulika/Documents/workspace/api
+2018-10-05 01:24:48 ERROR CheckTitle:43 - capability required
+2018-10-05 01:25:08 FATAL CheckTitle:55 - test data
+2018-10-05 01:25:17 DEBUG CheckTitle:68 - title check
+2018-10-05 11:39:14 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 11:39:14 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 11:39:14 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 11:39:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 11:39:14 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/api/2/issue/ HTTP/1.1
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "POST /rest/api/2/issue/ HTTP/1.1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "cookie: JSESSIONID=null[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Length: 292[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 11:39:14 DEBUG headers:280 - >> POST /rest/api/2/issue/ HTTP/1.1
+2018-10-05 11:39:14 DEBUG headers:283 - >> cookie: JSESSIONID=null
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept: */*
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Length: 292
+2018-10-05 11:39:14 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 11:39:14 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 11:39:14 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "{[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "    "fields": {[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       "project":[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       {[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "          "key": "TEST"[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       },[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       "summary": "REST ye merry gentlemen.",[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       "description": "Creating of an issue using project keys and issue type names using the REST API",[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       "issuetype": {[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "          "name": "Bug"[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "       }[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "   }[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "}[\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Date: Fri, 05 Oct 2018 06:09:14 GMT[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Length: 398[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:267 - << Date: Fri, 05 Oct 2018 06:09:14 GMT
+2018-10-05 11:39:14 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 11:39:14 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Length: 398
+2018-10-05 11:39:14 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 11:39:14 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 11:39:14 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 11:39:14 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 11:39:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 11:39:14 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Length: 77[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 11:39:14 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept: */*
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Length: 77
+2018-10-05 11:39:14 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 11:39:14 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 11:39:14 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "{ [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9]"username": "parulika.singh@gmail.com", [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9]"password": "Parulika@123" [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9][\n]"
+2018-10-05 11:39:14 DEBUG wire:86 -  >> "}"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Date: Fri, 05 Oct 2018 06:09:14 GMT[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Length: 400[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:267 - << Date: Fri, 05 Oct 2018 06:09:14 GMT
+2018-10-05 11:39:14 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 11:39:14 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Length: 400
+2018-10-05 11:39:14 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 11:39:14 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://localhost:8080
+2018-10-05 11:39:14 DEBUG DefaultClientConnectionOperator:176 - Connecting to localhost:8080
+2018-10-05 11:39:14 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2018-10-05 11:39:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2018-10-05 11:39:14 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:276 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Content-Length: 77[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Host: localhost:8080[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[\r][\n]"
+2018-10-05 11:39:14 DEBUG headers:280 - >> POST /rest/auth/1/session HTTP/1.1
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept: */*
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Type: application/json; charset=UTF-8
+2018-10-05 11:39:14 DEBUG headers:283 - >> Content-Length: 77
+2018-10-05 11:39:14 DEBUG headers:283 - >> Host: localhost:8080
+2018-10-05 11:39:14 DEBUG headers:283 - >> Connection: Keep-Alive
+2018-10-05 11:39:14 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+2018-10-05 11:39:14 DEBUG headers:283 - >> Accept-Encoding: gzip,deflate
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "{ [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9]"username": "parulika.singh@gmail.com", [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9]"password": "Parulika@123" [\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  >> "[0x9][\n]"
+2018-10-05 11:39:14 DEBUG wire:86 -  >> "}"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Date: Fri, 05 Oct 2018 06:09:14 GMT[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Content-Length: 400[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-10-05 11:39:14 DEBUG wire:72 -  << "[\r][\n]"
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:264 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-10-05 11:39:14 DEBUG headers:267 - << Date: Fri, 05 Oct 2018 06:09:14 GMT
+2018-10-05 11:39:14 DEBUG headers:267 - << X-Content-Type-Options: nosniff
+2018-10-05 11:39:14 DEBUG headers:267 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Type: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG headers:267 - << Content-Length: 400
+2018-10-05 11:39:14 DEBUG headers:267 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-10-05 11:39:14 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/html;charset=iso-8859-1
+2018-10-05 11:39:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50960<->127.0.0.1:8080 closed
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50962<->127.0.0.1:8080 closed
+2018-10-05 11:39:14 DEBUG DefaultClientConnection:182 - Connection 0.0.0.0:50961<->127.0.0.1:8080 closed
+2018-10-05 11:39:14 INFO  CheckTitle:39 - /Users/parulika/Documents/workspace/api
+2018-10-05 11:39:14 ERROR CheckTitle:43 - capability required
+2018-10-05 11:39:40 FATAL CheckTitle:55 - test data
+2018-10-05 11:39:52 DEBUG CheckTitle:68 - title check

@@ -5,6 +5,7 @@
     <classes>
       <class name="webTest.CheckTitle">
         <methods>
+          <include name="killDriver"/>
           <include name="checkPageTitles"/>
         </methods>
       </class> <!-- webTest.CheckTitle -->
